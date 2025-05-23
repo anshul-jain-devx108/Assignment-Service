@@ -5,7 +5,7 @@ const { autoChainRefine } = require("./autoChainService");
 const { optimizePrompt } = require("./promptOptimizer");
 
 const OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions";
-const MODEL = "google/gemini-flash-1.5-8b-exp";
+const MODEL = "meta-llama/llama-3.3-8b-instruct:free"; //"google/gemini-flash-1.5-8b-exp";
 
 /**
  * Removes code fence formatting (e.g., "```json" and "```") from the raw AI response,
