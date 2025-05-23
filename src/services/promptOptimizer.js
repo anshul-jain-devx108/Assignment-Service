@@ -1,6 +1,6 @@
 
-// const { PromptTemplate } = require("langchain/prompts");
-const { PromptTemplate } = require("langchain-core/prompts");
+const { PromptTemplate } = require("langchain/prompts");
+// const { PromptTemplate } = require("langchain-core/prompts");
 
 const { getHaystackContext } = require("./hayStackService");
 
